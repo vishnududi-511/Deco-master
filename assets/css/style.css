@@ -243,6 +243,36 @@
     color: var(--color-white);
 }
 
+/* --------------------section-4--------------------- */
+
+.sec-4-heading {
+    font-family: Poppins;
+    font-size: var(--font-size-30);
+    font-weight: var(--font-weight-xl);
+    line-height: 72px;
+    text-align: left;
+    color: var(--color-black);
+}
+
+.sec-4-para {
+    font-family: Poppins;
+    font-size: var(--font-size-18);
+    font-weight: var(--font-weight-sm);
+    line-height: 27px;
+    text-align: left;
+    opacity: 70%;
+    color: var(--color-black);
+}
+
+.sec-4-col-para {
+    font-family: Poppins;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-sm);
+    line-height: 27px;
+    text-align: left;
+    color: var(--color-black);
+}
+
 @media (min-width:1600px) {
     .slider-layer-heading {
         font-family: var(--ff-poppins);
@@ -273,6 +303,14 @@
         color: var(--color-white);
     }
 
+    .sec-4-col-para {
+        font-family: Poppins;
+        font-size: var(--font-size-18);
+        font-weight: var(--font-weight-sm);
+        line-height: 27px;
+        text-align: left;
+        color: var(--color-black);
+    }
 }
 
 @media (min-width:768px) {
@@ -347,6 +385,16 @@
         font-weight: var(--font-weight-xl);
         line-height: 72px;
         text-align: center;
+        color: var(--color-black);
+    }
+
+    /* section-4 */
+    .sec-4-heading {
+        font-family: Poppins;
+        font-size: var(--font-size-48);
+        font-weight: var(--font-weight-xl);
+        line-height: 72px;
+        text-align: left;
         color: var(--color-black);
     }
 }
