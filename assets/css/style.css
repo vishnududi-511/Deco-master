@@ -256,7 +256,7 @@
 
 .sec-4-para {
     font-family: Poppins;
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-16);
     font-weight: var(--font-weight-sm);
     line-height: 27px;
     text-align: left;
@@ -271,6 +271,14 @@
     line-height: 27px;
     text-align: left;
     color: var(--color-black);
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 @media (min-width:1600px) {
@@ -396,6 +404,20 @@
         line-height: 72px;
         text-align: left;
         color: var(--color-black);
+    }
+
+    .sec-4-para {
+        font-family: Poppins;
+        font-size: var(--font-size-18);
+        font-weight: var(--font-weight-sm);
+        line-height: 27px;
+        text-align: left;
+        opacity: 70%;
+        color: var(--color-black);
+    }
+
+    .sm-mt-30 {
+        margin-top: 30px;
     }
 }
 
