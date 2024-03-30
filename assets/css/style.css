@@ -397,6 +397,68 @@
     margin-top: 30px;
 }
 
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+/* --------------------section-7--------------------------- */
+
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.sec-7-textbox1 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    max-width: 554px;
+    padding: 15px 30px;
+    bottom: 5%;
+    left: 4%;
+    right: 2%;
+}
+
+.sec-7-textbox2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    max-width: 440px;
+    padding: 15px 30px;
+    bottom: 5%;
+    left: 4%;
+    right: 2%;
+}
+
+.sec-7-textbox4 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--color-black);
+    text-align: center;
+    color: var(--color-white);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+    right: 5%;
+}
+
+.textbox4-heading {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: justified;
+    color: var(--color-white);
+}
+
 @media (min-width:1600px) {
     .slider-layer-heading {
         font-family: var(--ff-poppins);
@@ -648,6 +710,10 @@
     .xxl-mt-120 {
         margin-top: 120px;
     }
+
+    .xxl-pb-80 {
+        padding-bottom: 80px;
+    }
 }
 
 @media (min-width:1200px) {
@@ -761,6 +827,55 @@
         font-weight: var(--font-weight-md);
         line-height: 72px;
         text-align: left;
+    }
+
+    .sec-7-textbox1 {
+        font-family: Poppins;
+        font-size: var(--font-size-18) !important;
+        font-weight: 400;
+        line-height: 27px;
+        color: var(--color-black);
+        background-color: var(--color-white);
+        max-width: 554px;
+        padding: 15px 30px !important;
+        bottom: 5%;
+        left: 4%;
+        right: 2%;
+    }
+
+    .sec-7-textbox2 {
+        font-family: Poppins;
+        font-size: var(--font-size-18) !important;
+        font-weight: 400;
+        line-height: 27px;
+        color: var(--color-black);
+        background-color: var(--color-white);
+        max-width: 440px;
+        padding: 15px 30px !important;
+        bottom: 5%;
+        left: 4%;
+        right: 2%;
+    }
+
+    .sec-7-textbox4 {
+        font-family: Poppins;
+        font-size: var(--font-size-18) !important;
+        font-weight: 400;
+        line-height: 27px;
+        color: var(--color-black);
+        text-align: center;
+        color: var(--color-white);
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .textbox4-heading {
+        font-family: Poppins;
+        font-size: var(--font-size-36) !important;
+        font-weight: 700;
+        line-height: 54px;
+        text-align: justified;
+        color: var(--color-white);
     }
 }
 
@@ -894,6 +1009,55 @@
         color: var(--color-white);
         border: 1px solid var(--color-darkblue);
         border-radius: 4px;
+    }
+
+    .sec-7-textbox1 {
+        font-family: Poppins;
+        font-size: var(--font-size-16);
+        font-weight: 400;
+        line-height: 27px;
+        color: var(--color-black);
+        background-color: var(--color-white);
+        max-width: 554px;
+        padding: 15px 30px;
+        bottom: 5%;
+        left: 4%;
+        right: 2%;
+    }
+
+    .sec-7-textbox2 {
+        font-family: Poppins;
+        font-size: var(--font-size-16);
+        font-weight: 400;
+        line-height: 25px;
+        color: var(--color-black);
+        background-color: var(--color-white);
+        max-width: 440px;
+        padding: 10px 20px;
+        bottom: 5%;
+        left: 4%;
+        right: 2%;
+    }
+
+    .sec-7-textbox4 {
+        font-family: Poppins;
+        font-size: var(--font-size-16);
+        font-weight: 400;
+        line-height: 25px;
+        color: var(--color-black);
+        text-align: center;
+        color: var(--color-white);
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .textbox4-heading {
+        font-family: Poppins;
+        font-size: var(--font-size-25);
+        font-weight: 700;
+        line-height: 54px;
+        text-align: justified;
+        color: var(--color-white);
     }
 }
 
