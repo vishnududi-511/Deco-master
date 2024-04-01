@@ -31,7 +31,9 @@
     --font-size-48: 48px;
     --font-size-64: 64px;
     --font-size-67: 67px;
+    --font-size-90: 90px;
     --font-size-96: 96px;
+    --font-size-144: 144px;
 
     --color-orange: #F06500;
     --nav-color: #000000BF;
@@ -39,7 +41,8 @@
     --section-bg-color-2: #1D1A1A;
     --color-sec3-box: #151313;
     --color-grey: #373737;
-    --color-light-grey: #7B7B7B;
+    --color-light-grey: #F0F0F0;
+    ;
     --color-white: white;
     --color-light-pink: #FFF7F4;
     --color-EFEF-white: #EFEFEF;
@@ -487,6 +490,29 @@
     box-shadow: -9px -13px 94px 0px #00000040;
 }
 
+/* ------------------------------section-9---------------------------- */
+
+.sec-9-font1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+.sec-9-font2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+}
+
+.mt_100 {
+    margin-top: 100px;
+}
+
+
 @media (min-width:1600px) {
     .slider-layer-heading {
         font-family: var(--ff-poppins);
@@ -886,6 +912,55 @@
         color: var(--color-white);
     }
 
+    /* -------section-9------ */
+    .sec_9_box {
+        background-color: var(--color-light-grey);
+        border-radius: 45px;
+        padding: 150px 210px;
+    }
+
+    .sec_9_box_heading {
+        font-family: Poppins;
+        font-size: var(--font-size-144) !important;
+        font-weight: var(--font-weight-xl);
+        line-height: 216px;
+        text-align: justified;
+        opacity: 50%;
+        background: linear-gradient(90deg, #9104E5 0%, #F93B96 96.47%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, -50%);
+        left: 50%;
+
+    }
+
+    .subscribe-btn {
+        font-family: Poppins;
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-md);
+        line-height: 30px;
+        text-align: left;
+        background-color: var(--color-darkblue);
+        color: var(--color-white);
+        padding: 24px 49px;
+        border: 1px solid var(--color-darkblue);
+    }
+
+    .email_sec_9 {
+        font-family: Poppins;
+        font-size: var(--font-size-23);
+        font-weight: var(--font-weight-sm);
+        line-height: 36px;
+        text-align: justified;
+        color: var(--color-black);
+        opacity: 70%;
+        outline: none;
+        border: none;
+        padding: 24px 10px 24px 30px !important;
+    }
 }
 
 @media (min-width:992px) {
@@ -963,6 +1038,55 @@
         text-align: justified;
         color: var(--color-white);
     }
+
+    .sec_9_box {
+        background-color: var(--color-light-grey);
+        border-radius: 45px;
+        padding: 150px 210px;
+    }
+
+    .sec_9_box_heading {
+        font-family: Poppins;
+        font-size: var(--font-size-96);
+        font-weight: var(--font-weight-xl);
+        line-height: 216px;
+        text-align: justified;
+        opacity: 50%;
+        background: linear-gradient(90deg, #9104E5 0%, #F93B96 96.47%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, -50%);
+        left: 50%;
+
+    }
+
+    .subscribe-btn {
+        font-family: Poppins;
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-md);
+        line-height: 30px;
+        text-align: left;
+        background-color: var(--color-darkblue);
+        color: var(--color-white);
+        padding: 24px 49px;
+        border: 1px solid var(--color-darkblue);
+    }
+
+    .email_sec_9 {
+        font-family: Poppins;
+        font-size: var(--font-size-23);
+        font-weight: var(--font-weight-sm);
+        line-height: 36px;
+        text-align: justified;
+        color: var(--color-black);
+        opacity: 70%;
+        outline: none;
+        border: none;
+        padding: 24px 10px 24px 20px;
+    }
 }
 
 @media (min-width:768px) {
@@ -981,6 +1105,23 @@
     .md-py-80 {
         padding-top: 80px;
         padding-bottom: 80px;
+    }
+
+    /* section-9 */
+    .sec-9-font1 {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    .sec-9-font2 {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: center;
     }
 }
 
@@ -1208,6 +1349,59 @@
         text-align: left;
         color: var(--color-darkblue);
     }
+
+    .sec_9_box {
+        background-color: var(--color-light-grey);
+        border-radius: 45px;
+        padding: 150px 100px;
+    }
+
+    .sec_9_box_heading {
+        font-family: Poppins;
+        font-size: var(--font-size-90);
+        font-weight: var(--font-weight-xl);
+        line-height: 216px;
+        text-align: justified;
+        opacity: 50%;
+        background: linear-gradient(90deg, #9104E5 0%, #F93B96 96.47%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, -50%);
+        left: 50%;
+
+    }
+
+    .subscribe-btn {
+        font-family: Poppins;
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-md);
+        line-height: 30px;
+        text-align: left;
+        background-color: var(--color-darkblue);
+        color: var(--color-white);
+        padding: 24px 49px;
+        border: 1px solid var(--color-darkblue);
+    }
+
+    .email_sec_9 {
+        font-family: Poppins;
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-sm);
+        line-height: 36px;
+        text-align: justified;
+        color: var(--color-black);
+        opacity: 70%;
+        outline: none;
+        border: none;
+        padding: 24px 10px 24px 20px;
+    }
+
+    .mt_100 {
+        margin-top: 100px;
+    }
 }
 
 @media (max-width:768px) {
@@ -1228,6 +1422,55 @@
         text-align: justified;
         color: var(--color-white);
     }
+
+    .sec_9_box {
+        background-color: var(--color-light-grey);
+        border-radius: 45px;
+        padding: 100px 50px;
+    }
+
+    .sec_9_box_heading {
+        font-family: Poppins;
+        font-size: var(--font-size-48);
+        font-weight: var(--font-weight-xl);
+        line-height: 216px;
+        text-align: justified;
+        opacity: 50%;
+        background: linear-gradient(90deg, #9104E5 0%, #F93B96 96.47%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, -50%);
+        left: 50%;
+
+    }
+
+    .subscribe-btn {
+        font-family: Poppins;
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-md);
+        line-height: 30px;
+        text-align: left;
+        background-color: var(--color-darkblue);
+        color: var(--color-white);
+        padding: 24px 49px;
+        border: 1px solid var(--color-darkblue);
+    }
+
+    .email_sec_9 {
+        font-family: Poppins;
+        font-size: var(--font-size-20);
+        font-weight: var(--font-weight-sm);
+        line-height: 36px;
+        text-align: justified;
+        color: var(--color-black);
+        opacity: 70%;
+        outline: none;
+        border: none;
+        padding: 24px 10px 24px 20px;
+    }
 }
 
 @media (max-width:576px) {
@@ -1246,6 +1489,55 @@
         line-height: 48px;
         text-align: left;
         color: var(--color-darkblue);
+    }
+
+    .sec_9_box {
+        background-color: var(--color-light-grey);
+        border-radius: 45px;
+        padding: 50px 10px;
+    }
+
+    .sec_9_box_heading {
+        font-family: Poppins;
+        font-size: var(--font-size-30);
+        font-weight: var(--font-weight-xl);
+        line-height: 216px;
+        text-align: justified;
+        opacity: 50%;
+        background: linear-gradient(90deg, #9104E5 0%, #F93B96 96.47%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+        position: absolute;
+        top: 0;
+        transform: translate(-50%, -50%);
+        left: 50%;
+
+    }
+
+    .subscribe-btn {
+        font-family: Poppins;
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-md);
+        line-height: 30px;
+        text-align: left;
+        background-color: var(--color-darkblue);
+        color: var(--color-white);
+        padding: 20px 35px;
+        border: 1px solid var(--color-darkblue);
+    }
+
+    .email_sec_9 {
+        font-family: Poppins;
+        font-size: var(--font-size-16);
+        font-weight: var(--font-weight-sm);
+        line-height: 36px;
+        text-align: justified;
+        color: var(--color-black);
+        opacity: 70%;
+        outline: none;
+        border: none;
+        padding: 20px 10px 20px 10px;
     }
 
 }
