@@ -395,6 +395,11 @@
     border-radius: 4px;
 }
 
+.readmore:hover {
+    background-color: var(--color-white);
+    color: var(--color-darkblue);
+}
+
 
 .sec-6-card-para {
     font-family: var(--ff-poppins);
@@ -659,6 +664,10 @@
     right: 0;
 }
 
+.subscribe-btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-darkblue);
+}
 
 @media (min-width:1600px) {
     .slider-layer-heading {
