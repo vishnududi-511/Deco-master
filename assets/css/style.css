@@ -459,6 +459,34 @@
     color: var(--color-white);
 }
 
+/* ------------------------------section8--------------------------------- */
+
+.sec-8-font1 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: justified;
+    color: var(--color-white);
+}
+
+.sec-8-font2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: justified;
+    color: var(--color-white);
+}
+
+.bg-blue {
+    background-color: var(--color-darkblue);
+}
+
+.sec-8-img-shadow {
+    box-shadow: -9px -13px 94px 0px #00000040;
+}
+
 @media (min-width:1600px) {
     .slider-layer-heading {
         font-family: var(--ff-poppins);
@@ -714,6 +742,28 @@
     .xxl-pb-80 {
         padding-bottom: 80px;
     }
+
+    /* ---------------section-8 ----------------*/
+    .xxl-pb-210 {
+        padding-bottom: 210px !important;
+    }
+
+    .sec-8-position-1 {
+        position: absolute;
+        left: 43%;
+    }
+
+    .sec-8-position-2 {
+        top: 36%;
+        left: 21.5%;
+        position: absolute
+    }
+
+    .sec-8-position-3 {
+        left: 65%;
+        top: 36%;
+        position: absolute
+    }
 }
 
 @media (min-width:1200px) {
@@ -818,6 +868,24 @@
         border-radius: 20px;
     }
 
+    .sec-8-font1 {
+        font-family: Poppins;
+        font-size: var(--font-size-18) !important;
+        font-weight: var(--font-weight-md);
+        line-height: 27px;
+        text-align: justified;
+        color: var(--color-white);
+    }
+
+    .sec-8-font2 {
+        font-family: Poppins;
+        font-size: var(--font-size-23) !important;
+        font-weight: var(--font-weight-xl) !important;
+        line-height: 36px;
+        text-align: justified;
+        color: var(--color-white);
+    }
+
 }
 
 @media (min-width:992px) {
@@ -874,6 +942,24 @@
         font-size: var(--font-size-36) !important;
         font-weight: 700;
         line-height: 54px;
+        text-align: justified;
+        color: var(--color-white);
+    }
+
+    .sec-8-font1 {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: justified;
+        color: var(--color-white);
+    }
+
+    .sec-8-font2 {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 36px;
         text-align: justified;
         color: var(--color-white);
     }
@@ -1124,6 +1210,26 @@
     }
 }
 
+@media (max-width:768px) {
+    .sec-8-font1 {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: justified;
+        color: var(--color-white);
+    }
+
+    .sec-8-font2 {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: justified;
+        color: var(--color-white);
+    }
+}
+
 @media (max-width:576px) {
     .sec-6-card-heading {
         font-family: Poppins;
@@ -1141,4 +1247,5 @@
         text-align: left;
         color: var(--color-darkblue);
     }
+
 }
