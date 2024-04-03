@@ -27,6 +27,7 @@
     --font-size-36: 36px;
     --font-size-39: 39px;
     --font-size-42: 42px;
+    --font-size-45: 45px;
     --font-size-40: 40px;
     --font-size-48: 48px;
     --font-size-64: 64px;
@@ -148,6 +149,10 @@
     line-height: 27px;
     text-align: left;
     color: var(--color-brown);
+}
+
+.subscribe-btn {
+    border-radius: 20px;
 }
 
 /* ----------------section-2-------------- */
@@ -1666,7 +1671,7 @@
 
     .sec_9_box_heading {
         font-family: var(--ff-poppins);
-        font-size: var(--font-size-30);
+        font-size: var(--font-size-42);
         font-weight: var(--font-weight-xl);
         line-height: 216px;
         opacity: 50%;
